@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3c73c457-dd2c-4d29-8f4a-415470db8ec9" name="Changes" comment="" />
+    <list default="true" id="3c73c457-dd2c-4d29-8f4a-415470db8ec9" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/container/config/webpack.common.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/container/config/webpack.common.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/container/config/webpack.dev.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/container/config/webpack.dev.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/container/config/webpack.prod.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/container/config/webpack.prod.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/container/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/container/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/marketing/config/webpack.prod.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/marketing/config/webpack.prod.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/marketing/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/marketing/package.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,6 +57,7 @@
       <recent name="C:\Users\aertu\Desktop\Programowanie\5. Microfrontends(React)\2.React\container" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\aertu\Desktop\Programowanie\5. Microfrontends(React)\2.React\.github" />
       <recent name="C:\Users\aertu\Desktop\Programowanie\5. Microfrontends(React)\2.React\packages" />
       <recent name="C:\Users\aertu\Desktop\Programowanie\5. Microfrontends(React)\2.React\marketing\src" />
     </key>
@@ -63,6 +72,8 @@
       <updated>1678304843114</updated>
       <workItem from="1678304844355" duration="5836000" />
       <workItem from="1678380923573" duration="1296000" />
+      <workItem from="1678382867578" duration="2784000" />
+      <workItem from="1678467627459" duration="1931000" />
     </task>
     <servers />
   </component>
