@@ -16,12 +16,17 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v2
-      - run: npm install
-      - run: npm run build
+      - name: step1
+        uses: actions/checkout@v2
+      - name: step2
+        run: npm install
+      - name: step3
+        run: npm run build
 
-      - uses: shinyinc/action-aws-cli@v1.2
-      - run: aws s3 sync dist s3://${{ secrets.AWS_S3_BUCKET_NAME }}/container/latest
+      - name: step4
+        uses: shinyinc/action-aws-cli@v1.2
+      - name: step5
+        run: aws s3 sync dist s3://${{ secrets.AWS_S3_BUCKET_NAME }}/container/latest
         env:
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
